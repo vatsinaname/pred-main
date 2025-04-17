@@ -1,0 +1,19 @@
+{
+    "model_type": "OneClassSVM",
+    "parameters": {
+        "kernel": "rbf",
+        "nu": 0.1,
+        "gamma": "scale"
+    },
+    "performance": {
+        "threshold": 205.0374245979789,
+        "normal_detection_rate": 0.408,
+        "anomaly_detection_rate": 1.0,
+        "score_stats": {
+            "mean": 217.81951195121178,
+            "std": 22.983504902961172,
+            "min": 1.1598722721789159,
+            "max": 240.06793934646143
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "annual_costs": [
+        250000,
+        180000,
+        125000
+    ],
+    "schedule": [
+        {
+            "start": 2,
+            "duration": 3
+        },
+        {
+            "start": 8,
+            "duration": 2
+        },
+        {
+            "start": 15,
+            "duration": 4
+        },
+        {
+            "start": 22,
+            "duration": 3
+        },
+        {
+            "start": 12,
+            "duration": 2
+        }
+    ]
+}
