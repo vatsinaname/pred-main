@@ -18,12 +18,12 @@ class PredictiveMaintenanceModel:
         self.rf_model = RandomForestClassifier(
             n_estimators=100,
             max_depth=10,
-            random_state=42  # prof said to use 42 lol
+            random_state=42  #radnom
         )
         self.svm_model = OneClassSVM(
             kernel='rbf',  # this one works best i tried linear too
-            nu=0.1,        # not sure what this does tbh
-            gamma='scale'  # auto gves worse results!!
+            nu=0.1,        #
+            gamma='scale'  # auto gves worse results!
         )
         
     def prepare_ai4i_data(self, df):
